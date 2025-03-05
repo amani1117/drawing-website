@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("backgroundphoto.jpg");
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  .container {
+    h1{
+        text-shadow: 0px 5px 10px orange, 0px -5px 10px purple;
+        font-family: "Great Vibes";
+        font-weight: Bold;
+        font-size: 56px;
+        border: groove;
+        border-color:#ad8f65;
+        padding-right: 10px;
+
+    }
+    #setbackground
+    {
+        font-size: 15px;
+        padding:2px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+        background-color: beige;
+        color: black;
+        border-width: 1px;
+        border-radius: 6px;
+    }
+    #setbackground:hover
+        {
+            box-shadow: 0px 5px 10px orange;
+            color:rgb(234, 157, 12);
+            background-color: rgb(235, 204, 145);
+            animation:3s linear 0s infinite rota;
+        }
+    #clear
+    {
+        font-size: 15px;
+        padding:2px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+        background-color: beige;
+        color: black;
+        border-width: 1px;
+        border-radius: 6px;
+    }
+    #save:hover
+        {
+            box-shadow: 0px 5px 10px orange;
+            color:rgb(234, 157, 12);
+            background-color: rgb(235, 204, 145);
+        }
+    #clear:hover
+        {
+            box-shadow: 0px 5px 10px orange;
+            color:rgb(234, 157, 12);
+            background-color: rgb(235, 204, 145);
+        }
+    #addText:hover
+        {
+            box-shadow: 0px 5px 10px orange;
+            color:rgb(234, 157, 12);
+            background-color: rgb(235, 204, 145);
+        }
+        #save:active
+        {
+            background-color: white;
+        }
+        #clear:active
+        {
+            background-color: white;
+        }
+        #addText:active
+        {
+            background-color: white;
+        }
+    #save
+    {
+        
+        font-size: 15px;
+        padding:2px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: beige;
+        color: black;
+        border-width: 1px;
+        border-radius: 6px;
+    }
+    #addText
+    {
+        font-size: 15px;
+        padding:2px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: beige;
+        color: black;
+        border-width: 1px;
+        border-radius: 6px;
+    }
+    #range
+    {
+        color:brown;
+
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+
+  }
+  canvas {
+    border: 3px inset #a3f593;
+    border-radius: 10px;
+    cursor: crosshair;
+    background-color: #ffff;
+  }
+  
+  @media (max-width: 600px) {
+    canvas {
+      width: 100%;
+      height: auto;
+    }
+  }
